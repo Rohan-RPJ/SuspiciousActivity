@@ -8,7 +8,7 @@ import os
 path='/home/rohan/Desktop/SuspiciousDetection/'
 tot=0
 def getFrames(frameRate,vidcapt):
-    count=0
+    count=0 
     sec=0
     while True:
         count = count + 1
