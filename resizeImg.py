@@ -10,7 +10,7 @@ path='/home/rohan/Desktop/SuspiciousDetection/'
 count=1
 def resizeImg(imgi,width,height):
     img = cv2.imread(imgi)
-    #print('original image shape:', img.shape)
+    #print('original image shape:', img.shape) 
     resized_img = cv2.resize(img, (width, height))
     #print('resized to 128x256 image shape:', resized_img.shape)
     cv2.imwrite(path+"ResizedFrames/image"+str(count)+".jpg", resized_img)     # save frame as JPG file
